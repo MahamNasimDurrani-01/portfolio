@@ -5,7 +5,7 @@ import About from "./components/about/About";
 import Services from "./components/services/Services";
 import MyWork from "./components/myWork/MyWork";
 import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/footer";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
