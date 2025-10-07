@@ -5,7 +5,8 @@ import About from "./components/about/About";
 import Services from "./components/services/Services";
 import MyWork from "./components/myWork/MyWork";
 import Contact from "./components/contact/Contact";
-import Footer from "./components/Footer/Footer";
+import Footers from "./components/footer/Footers";
+
 
 export default function App() {
   return (
@@ -16,7 +17,7 @@ export default function App() {
       <Services/>
       <MyWork/>
       <Contact/>
-      <Footer/>
+      <Footers/>
     </div>
   );
 }

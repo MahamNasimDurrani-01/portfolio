@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { FiMail, FiLinkedin } from "react-icons/fi";
 
-const Footer = () => {
+const Footers = () => {
   const [email, setEmail] = useState("");
 
   const handleSubscribe = (e) => {
@@ -96,4 +96,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footers;
